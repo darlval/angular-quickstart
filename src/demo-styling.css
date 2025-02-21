@@ -5,10 +5,10 @@
   --color-bg: linear-gradient(180deg, #FFFFFF 0%, #AEC6DC 100%);
 
   /* Controls the blob blur gradient colors within the main tag's svg */
-  --top-right-blur-1: #20C6B7;
+  --top-right-blur-1: #4d0598;
   --top-right-blur-2: #4D9ABF;
-  --bttm-left-blur-1: #de3641;
-  --bttm-left-blur-2: #e46b73;
+  --bttm-left-blur-1: #f617b7;
+  --bttm-left-blur-2: #08dc19;
 }
 
 html {
