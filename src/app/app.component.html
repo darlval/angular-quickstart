@@ -1,115 +1,17 @@
-<svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>
-<div id="content">
-  <div class="header">
-    <h1>Darlene Vales</h1>
-    <h2>
-      Hello! I am a UI/UX and Graphic Designer. I am always looking for new and innovative ways to provide the best user experience and improve my own skillset to make this possible.
-    </h2>
-<!--    <div class="bttns">-->
-<!--      <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/angular-quickstart" class="bttn primary">Deploy to Netlify</a>-->
-<!--      <a href="https://github.com/netlify-templates/angular-quickstart" class="bttn secondary">View Repo</a>-->
-<!--    </div>-->
+<nav class="navbar navbar-default">
+  <div class="navbar-header">
+    <h1><a [routerLink]="''">Darlene Vales</a></h1>
   </div>
-  <div class="projects-list">
-    <b class="project-list-header">Recent Projects</b>
-    <div class="projects">
-      <div class="big-project-item-card-1">
-        <img class="hover-image-icon" alt="" src="../assets/placeholder-img.png">
-        <div class="project-title-parent">
-          <div class="project-title">And We Are LIVE</div>
-          <div class="description">The CW App - Simultaneous Livestreaming</div>
-          <div class="platforms-tags-list">
-            <div class="platform-tag">
-              <div class="platform">iOS</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Android Mobile</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Web</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Roku</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Android TV</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Fire TV</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Apple TV</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Samsung TV</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">LG TV</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Vizio</div>
-            </div>
-            <div class="platform-tag">
-              <div class="platform">Chromecast</div>
-            </div>
-          </div>
-        </div>
-      </div><div class="big-project-item-card-1">
-      <img class="hover-image-icon" alt="" src="../assets/placeholder-img.png">
-      <div class="project-title-parent">
-        <div class="project-title">Time For a New Look</div>
-        <div class="description">The CW TV App - Relaunch and Redesign - 2023</div>
-        <div class="platforms-tags-list">
-          <div class="platform-tag">
-            <div class="platform">Roku</div>
-          </div>
-          <div class="platform-tag">
-            <div class="platform">Android TV</div>
-          </div>
-          <div class="platform-tag">
-            <div class="platform">Fire TV</div>
-          </div>
-          <div class="platform-tag">
-            <div class="platform">Apple TV</div>
-          </div>
-          <div class="platform-tag">
-            <div class="platform">Samsung TV</div>
-          </div>
-          <div class="platform-tag">
-            <div class="platform">LG TV</div>
-          </div>
-          <div class="platform-tag">
-            <div class="platform">Vizio</div>
-          </div>
-          <div class="platform-tag">
-            <div class="platform">Chromecast</div>
-          </div>
-        </div>
-      </div>
+  <div class="nav-items">
+    <div class="nav-item" [routerLinkActive]="'active'">
+      <a  class="nav-link" [routerLink]="''">Home</a>
     </div>
+    <div class="nav-item">
+      <a class="nav-link" [routerLink]="'projects'">Projects</a>
+    </div>
+    <div class="nav-item">
+      <a class="nav-link" [routerLink]="'about'">About</a>
     </div>
   </div>
-  <!--  <div class="projects-list">-->
-<!--    <div class="project">-->
-<!--      <img-->
-<!--        src="assets/placeholder-img.png"-->
-<!--        alt="CW TV App Redesign 2023"-->
-<!--        loading="lazy"-->
-<!--        class="project-pic"/>-->
-<!--      <h3>And We Are LIVE</h3>-->
-<!--      <p>The CW App - Simultaneous Livestreaming</p>-->
-<!--    </div>-->
-<!--    <div class="project">-->
-<!--      <img-->
-<!--        src="assets/placeholder-img.png"-->
-<!--        alt="CW TV App Redesign 2023"-->
-<!--        loading="lazy"-->
-<!--        class="project-pic"/>-->
-<!--      <h3>Time For a New Look</h3>-->
-<!--      <p>The CW App - Relaunch and Redesign</p>-->
-<!--      <div class="platform-tag">-->
-<!--        <div class="platform">iOS</div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-</div>
+</nav>
+<router-outlet></router-outlet>
